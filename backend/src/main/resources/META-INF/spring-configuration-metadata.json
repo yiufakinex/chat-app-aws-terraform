@@ -1,0 +1,10 @@
+{
+    "properties": [
+      {
+        "name": "app.frontend.url",
+        "type": "java.lang.String",
+        "description": "URL of the frontend application",
+        "defaultValue": "http://localhost:3000"
+      }
+    ]
+  }

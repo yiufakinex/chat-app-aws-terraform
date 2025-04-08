@@ -1,0 +1,69 @@
+# Ignore Git files
+.git
+.gitignore
+
+# Ignore Maven build files
+target/
+!target/*.jar
+mvnw
+mvnw.cmd
+.mvn/
+
+# Ignore Gradle files
+.gradle/
+build/
+!build/libs/*.jar
+
+# Ignore IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+.vscode/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore test files
+**/test
+**/tests
+**/*.test.js
+**/*.spec.js
+
+# Ignore Node.js files (if used in frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Ignore documentation
+README.md
+docs/
+*.md
+
+# Ignore Docker related files
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Ignore environment files
+.env*
+*.env
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore temp files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Ignore development-only files
+**/dev
+**/development
