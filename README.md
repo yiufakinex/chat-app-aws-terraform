@@ -1,4 +1,4 @@
-# Chat Application - AWS with Terraform
+# Chat Application - AWS with Terraform (Traditional Approach)
 
 ## Table of Contents
 
@@ -9,6 +9,7 @@
 </ol>
 
 ## About
+
 An end-to-end deployment of a scalable and secure real-time Chat application using AWS infrastructure, managed and automated with Terraform.
 
 ## Architecture Overview
@@ -30,14 +31,14 @@ The infrastructure includes the following components:
 
 While this portfolio project demonstrates a cost-effective setup, I'm also familiar with designing robust AWS architectures for production chat applications including:
 
-* VPC with public/private subnets for enhanced security - application servers in private subnets
-* RDS with Multi-AZ deployment for database high availability and failover
-* Route53 for custom domain management with health checks
-* Application Load Balancer with WebSocket support and sticky sessions
-* Auto Scaling groups configured for chat traffic patterns
-* ElastiCache (Redis) for STOMP message broker and session management
-* S3 for media file storage with presigned URLs for secure access
-* CloudFront for static asset delivery and additional DDoS protection
-* IAM roles with least privilege for EC2 instances and services
-* CloudWatch for comprehensive monitoring and alerting
-* WAF for rate limiting and protection against common web vulnerabilities
+- VPC with public/private subnets for enhanced security - application servers in private subnets
+- RDS with Multi-AZ deployment for database high availability and failover
+- Route53 for custom domain management with health checks
+- Application Load Balancer with WebSocket support and sticky sessions
+- Auto Scaling groups configured for chat traffic patterns
+- ElastiCache (Redis) for STOMP message broker and session management
+- S3 for media file storage with presigned URLs for secure access
+- CloudFront for static asset delivery and additional DDoS protection
+- IAM roles with least privilege for EC2 instances and services
+- CloudWatch for comprehensive monitoring and alerting
+- WAF for rate limiting and protection against common web vulnerabilities
